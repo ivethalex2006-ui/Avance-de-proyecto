@@ -1,0 +1,69 @@
+/* Estilos para todos los elementos con ID */
+
+#navbarDiv {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#iconoCarrito{
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+#iconoUser{
+  padding-left: 5px;
+}
+
+
+
+#logoNavBar:hover{
+  border-bottom: none;
+  color: var(--accent);
+  transition: all 0.7s;
+}
+
+#logoNavBar:focus{
+  border-bottom: none;
+  color: var(--muted);
+}
+
+#copyright{
+  padding:7px;
+  text-align: center;
+  color: var(--muted);
+  font-size: small;
+  text-transform: uppercase;
+  margin: 25x;
+  width: 100%;
+  margin-bottom: 50px;
+  
+}
+
+#entrarBoton{
+  background-color: var(--blanco);
+  color: var(--bg);
+  font-weight: 700;
+}
+
+#entrarBoton:active{
+  background-color: var(--muted);
+}
+
+#crearCuentaBoton{
+    background-color: var(--blanco);
+    color: var(--bg);
+      font-weight: 700;
+}
+
+#crearCuentaBoton:active{
+  background-color: var(--muted);
+}
+
+#primerColumnaFooter{
+  margin-left: 30px;
+}
+
+#ultimaColumnaFooter{
+  margin-right: 30px;
+}
